@@ -31,7 +31,9 @@ public class MainActivity extends AppCompatActivity {
                 String pass = mEditPass.getText().toString();
 
                 if (account.equals("phat") && pass.equals("123456")){
-                    mTxtDisplay.setText("Tài khoản : "+ account + "\n" +"Mật khẩu : " + pass);
+                    String labelAccount = getResources().getString(R.string.label_show_account);
+                    String labelPass = getResources().getString(R.string.label_show_password);
+                    mTxtDisplay.setText(labelAccount + account + "\n" + labelPass + pass);
                 }else{
                     Toast.makeText(MainActivity.this, "Sai thông tin", Toast.LENGTH_SHORT).show();
                 }

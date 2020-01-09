@@ -4,4 +4,6 @@
     <string name="label_account">Nhập tài khoản</string>
     <string name="label_password">Nhập mật khẩu</string>
     <string name="label_login">Đăng nhập</string>
+    <string name="label_show_account">"Tài khoản : "</string>
+    <string name="label_show_password">"Mật khẩu : "</string>
 </resources>
