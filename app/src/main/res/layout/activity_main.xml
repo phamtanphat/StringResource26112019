@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,12 +12,12 @@
         android:textStyle="bold"
         android:textColor="#f20"
         android:textSize="30sp"
-        android:text="Đăng nhập hệ thống"
+        android:text="@string/label_title"
         android:id="@+id/textviewTieude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <EditText
-        android:hint="Nhập tài khoản"
+        android:hint="@string/label_account"
         android:textSize="20sp"
         android:layout_marginTop="40dp"
         android:layout_below="@id/textviewTieude"
@@ -26,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
-        android:hint="Nhập mật khẩu"
+        android:hint="@string/label_password"
         android:textSize="20sp"
         android:layout_marginTop="40dp"
         android:layout_below="@id/edittextTaikhoan"
@@ -34,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
-        android:text="Đăng nhập"
+        android:text="@string/label_login"
         android:id="@+id/buttonDangnhap"
         android:layout_marginTop="150dp"
         android:layout_centerHorizontal="true"
